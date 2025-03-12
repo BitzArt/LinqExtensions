@@ -58,7 +58,7 @@
 
 ## More packages
 
-![more.jpg](https://github.com/BitzArt/LinqExtensions/blob/main/assets/more.jpg?raw=true)
+![more.jpg](https://raw.githubusercontent.com/BitzArt/LinqExtensions/refs/heads/main/assets/more.jpg)
 
 - [**BitzArt.LinqExtensions.Batching**](https://github.com/BitzArt/LinqExtensions/blob/main/src/BitzArt.LinqExtensions.Batching) - Extension methods for sequence batching.
 
