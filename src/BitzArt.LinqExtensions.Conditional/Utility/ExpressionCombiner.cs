@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace System.Linq;
+namespace BitzArt.Linq.Conditional;
 
 internal static class ExpressionCombiner
 {
@@ -17,7 +17,7 @@ internal static class ExpressionCombiner
     {
         protected override Expression VisitParameter(ParameterExpression node)
         {
-            if (object.ReferenceEquals(node, oldParameter))
+            if (ReferenceEquals(node, oldParameter))
                 return newParameter;
 
             return base.VisitParameter(node);

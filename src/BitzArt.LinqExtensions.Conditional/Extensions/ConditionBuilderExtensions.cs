@@ -1,6 +1,7 @@
-﻿using System.Linq.Expressions;
+﻿using BitzArt.Linq.Conditional;
+using System.Linq.Expressions;
 
-namespace BitzArt.Linq.Conditional;
+namespace System.Linq;
 
 /// <summary>
 /// Condition builder extensions for LINQ queries.
@@ -28,7 +29,7 @@ public static class ConditionBuilderExtensions
             selectorExpression.Parameters
         );
 
-        builder.Query = builder.Query.Where(expression);
+        builder.Query = Queryable.Where(builder.Query, expression);
 
         return builder;
     }

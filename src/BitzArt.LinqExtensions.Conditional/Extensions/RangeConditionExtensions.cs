@@ -1,6 +1,8 @@
-﻿using System.Linq.Expressions;
+﻿using BitzArt;
+using BitzArt.Linq.Conditional;
+using System.Linq.Expressions;
 
-namespace BitzArt.Linq.Conditional;
+namespace System.Linq;
 
 /// <summary>
 /// Extension methods for filtering by <see cref="Range{T}"/>
