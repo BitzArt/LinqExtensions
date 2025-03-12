@@ -11,8 +11,8 @@
 		<Authors>BitzArt</Authors>
 		<Description>Complex condition builders</Description>
 		<RepositoryType>git</RepositoryType>
-		<RepositoryUrl>https://github.com/BitzArt/Miscellaneous/tree/main/src/LINQ/BitzArt.LinqExtensions.Conditional</RepositoryUrl>
-		<PackageProjectUrl>https://github.com/BitzArt/Miscellaneous/tree/main/src/LINQ/BitzArt.LinqExtensions.Conditional</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/BitzArt/LinqExtensions/tree/main/src/BitzArt.LinqExtensions.Conditional</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/BitzArt/LinqExtensions/tree/main/src/BitzArt.LinqExtensions.Conditional</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 

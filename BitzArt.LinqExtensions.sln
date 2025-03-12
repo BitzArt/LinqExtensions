@@ -24,6 +24,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitzArt.LinqExtensions.Cond
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitzArt.LinqExtensions.Tests", "tests\BitzArt.LinqExtensions.Tests\BitzArt.LinqExtensions.Tests.csproj", "{6179E5A5-DBEB-494F-84CF-F72EA5770794}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{BC322F43-F883-4970-81F4-E0AC538AA448}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{57CF8ECB-876D-4903-B02C-12063E676262}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\Publish.yml = .github\workflows\Publish.yml
+		.github\workflows\Tests.yml = .github\workflows\Tests.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,5 +73,6 @@ Global
 		{14B2EEAB-F647-4D1D-A16A-7C9193F4F582} = {A831A931-C42F-4B27-A226-1716934BB62C}
 		{E6EC0751-4C71-4E06-A37D-EF0EAB3ED4F7} = {A831A931-C42F-4B27-A226-1716934BB62C}
 		{6179E5A5-DBEB-494F-84CF-F72EA5770794} = {A831A931-C42F-4B27-A226-1716934BB62C}
+		{57CF8ECB-876D-4903-B02C-12063E676262} = {BC322F43-F883-4970-81F4-E0AC538AA448}
 	EndGlobalSection
 EndGlobal

@@ -10,8 +10,8 @@
 		<Authors>BitzArt</Authors>
 		<Description>LINQ Extensions</Description>
 		<RepositoryType>git</RepositoryType>
-		<RepositoryUrl>https://github.com/BitzArt/Miscellaneous</RepositoryUrl>
-		<PackageProjectUrl>https://github.com/BitzArt/Miscellaneous</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/BitzArt/LinqExtensions</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/BitzArt/LinqExtensions</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
