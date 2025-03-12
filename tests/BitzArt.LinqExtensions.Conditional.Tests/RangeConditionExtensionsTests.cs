@@ -16,7 +16,7 @@ public class RangeConditionExtensionsTests
     }
 
     [Theory]
-    [InlineData(new int[] {}, 0, 0, true, true, new int[] {})]
+    [InlineData(new int[] { }, 0, 0, true, true, new int[] { })]
     [InlineData(new int[] { 1, 2, 3, 4, 5 }, 1, 5, true, true, new int[] { 1, 2, 3, 4, 5 })]
     [InlineData(new int[] { 1, 2, 3, 4, 5 }, 1, 2, true, true, new int[] { 1, 2 })]
     [InlineData(new int[] { 1, 2, 3, 4, 5 }, 2, 5, true, true, new int[] { 2, 3, 4, 5 })]

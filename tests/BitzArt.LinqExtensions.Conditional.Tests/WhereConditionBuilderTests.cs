@@ -25,6 +25,6 @@ public class WhereConditionBuilderTests
         var filtered = data.AsQueryable().Where(x => x).IsTrue(x => x % 2 == 0).ToList();
 
         // Assert
-        Assert.Equal([ 2, 4, 6, 8, 10 ], filtered);
+        Assert.Equal([2, 4, 6, 8, 10], filtered);
     }
 }

@@ -19,6 +19,6 @@ internal class BatchingStrategy<TSource> : IBatchingStrategy<TSource>
     /// <summary>
     /// <inheritdoc />
     /// </summary>
-    public void NotifyQueryChanged() 
+    public void NotifyQueryChanged()
         => Builder.NotifyQueryChanged();
 }

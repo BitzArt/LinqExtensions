@@ -42,21 +42,21 @@ public static class RangeConditionExtensions
     private static Expression<Func<TMember, bool>>? GetRangeStartConstraintExpression<TMember>(Range<TMember> range)
         where TMember : struct, IComparable<TMember>
     {
-        if (range.Start is null) return null;
+        if (range.LowerBound is null) return null;
 
-        var comparisonType = range.IncludeStart ? ComparisonType.GreaterThanOrEqual : ComparisonType.GreaterThan;
+        var comparisonType = range.IncludeLowerBound ? ComparisonType.GreaterThanOrEqual : ComparisonType.GreaterThan;
 
-        return GetComparisonExpression(range.Start!.Value, comparisonType);
+        return GetComparisonExpression(range.LowerBound!.Value, comparisonType);
     }
 
     private static Expression<Func<TMember, bool>>? GetRangeEndConstraintExpression<TMember>(Range<TMember> range)
         where TMember : struct, IComparable<TMember>
     {
-        if (range.End is null) return null;
+        if (range.UpperBound is null) return null;
 
-        var comparisonType = range.IncludeEnd ? ComparisonType.LessThanOrEqual : ComparisonType.LessThan;
+        var comparisonType = range.IncludeUpperBound ? ComparisonType.LessThanOrEqual : ComparisonType.LessThan;
 
-        return GetComparisonExpression(range.End!.Value, comparisonType);
+        return GetComparisonExpression(range.UpperBound!.Value, comparisonType);
     }
 
     private static Expression<Func<TMember, bool>> GetComparisonExpression<TMember>(TMember rangeValue, ComparisonType comparisonType)
