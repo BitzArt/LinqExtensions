@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+		<RootNamespace>BitzArt</RootNamespace>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+		<PackageId>BitzArt.LinqExtensions</PackageId>
+		<Authors>BitzArt</Authors>
+		<Description>LINQ Extensions</Description>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/BitzArt/LinqExtensions</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/BitzArt/LinqExtensions</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="BitzArt.CoreExtensions" Version="1.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="True" Visible="False" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
