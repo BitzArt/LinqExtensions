@@ -19,7 +19,7 @@ public static class ShuffleExtensions
     /// <param name="seed">The seed to use for the random number generator.</param>
     /// <returns>A new IQueryable with the elements shuffled.</returns>
     public static IQueryable<TSource> Shuffle<TSource>(this IQueryable<TSource> source, int? seed = null)
-        => source.Shuffle(seed).AsQueryable();
+        => ((IEnumerable<TSource>)source).Shuffle(seed).AsQueryable();
 
     /// <summary>
     /// Shuffles the elements of the collection
