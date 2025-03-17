@@ -16,7 +16,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="BitzArt.CoreExtensions" Version="1.2.0" />
+	  <PackageReference Include="BitzArt.CoreExtensions" Version="1.2.2" />
 	</ItemGroup>
 
 	<ItemGroup>
