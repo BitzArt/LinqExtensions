@@ -42,4 +42,3 @@ jobs:
         run: | 
           dotnet nuget push BitzArt.LinqExtensions.${VERSION}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${NUGET_APIKEY}
           dotnet nuget push BitzArt.LinqExtensions.Batching.${VERSION}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${NUGET_APIKEY}
-          dotnet nuget push BitzArt.LinqExtensions.Conditional.${VERSION}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${NUGET_APIKEY}

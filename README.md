@@ -61,5 +61,3 @@
 ![more.jpg](https://raw.githubusercontent.com/BitzArt/LinqExtensions/refs/heads/main/assets/more.jpg)
 
 - [**BitzArt.LinqExtensions.Batching**](https://github.com/BitzArt/LinqExtensions/blob/main/src/BitzArt.LinqExtensions.Batching) - Extension methods for sequence batching.
-
-- [**BitzArt.LinqExtensions.Conditional**](https://github.com/BitzArt/LinqExtensions/blob/main/src/BitzArt.LinqExtensions.Conditional) - LINQ extension methods for more complex conditional operations.
